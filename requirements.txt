@@ -1,0 +1,17 @@
+# Bluetooth Antenna Fault Classification
+# Python runtime: Python 3.11 or newer (use the same runtime for local testing and deployment)
+#
+# Install dependencies:
+#   pip install -r requirements.txt
+#
+# IMPORTANT:
+# scikit-learn must match the version used to train and serialize the .joblib models.
+# The version below is a proposed compatibility pin, not a verified training-environment
+# version. Confirm it against the original model-training environment before deployment.
+
+streamlit==1.42.0
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.2.2
+joblib==1.4.2
+matplotlib==3.10.0
